@@ -185,33 +185,16 @@ h1 {
   padding-left: 32px;
 }
 
-.monogram {
-  align-items: center;
-  background: var(--teal);
+.profile-photo {
+  border: 1px solid rgba(22, 34, 41, 0.16);
   border-radius: 50%;
-  color: var(--paper-soft);
-  display: flex;
-  font-family: var(--font-mono);
-  font-size: 30px;
-  font-weight: 650;
-  height: 118px;
-  justify-content: center;
-  letter-spacing: -0.12em;
+  box-shadow: 0 14px 34px rgba(20, 48, 48, 0.16);
+  display: block;
+  height: 148px;
   margin-bottom: 28px;
-  position: relative;
-  width: 118px;
-}
-
-.monogram::after {
-  border: 1px solid rgba(255, 255, 255, 0.32);
-  border-radius: 50%;
-  content: "";
-  inset: 9px;
-  position: absolute;
-}
-
-.monogram span {
-  color: #efb59e;
+  object-fit: cover;
+  object-position: center 35%;
+  width: 148px;
 }
 
 .identity-card p {
@@ -784,7 +767,7 @@ footer p {
     padding-top: 28px;
   }
 
-  .monogram {
+  .profile-photo {
     height: 96px;
     margin: 0;
     width: 96px;
