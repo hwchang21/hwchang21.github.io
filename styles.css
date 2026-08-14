@@ -191,7 +191,7 @@ h1 {
   box-shadow: 0 10px 24px rgba(20, 48, 48, 0.14);
   display: block;
   height: 112px;
-  margin-bottom: 22px;
+  margin: 0 auto 24px;
   object-fit: cover;
   object-position: center 35%;
   width: 112px;
