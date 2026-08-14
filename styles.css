@@ -188,13 +188,13 @@ h1 {
 .profile-photo {
   border: 1px solid rgba(22, 34, 41, 0.16);
   border-radius: 50%;
-  box-shadow: 0 14px 34px rgba(20, 48, 48, 0.16);
+  box-shadow: 0 10px 24px rgba(20, 48, 48, 0.14);
   display: block;
-  height: 148px;
-  margin-bottom: 28px;
+  height: 112px;
+  margin-bottom: 22px;
   object-fit: cover;
   object-position: center 35%;
-  width: 148px;
+  width: 112px;
 }
 
 .identity-card p {
@@ -768,9 +768,9 @@ footer p {
   }
 
   .profile-photo {
-    height: 96px;
+    height: 82px;
     margin: 0;
-    width: 96px;
+    width: 82px;
   }
 
   .hero-summary {
