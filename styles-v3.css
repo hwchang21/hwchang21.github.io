@@ -165,10 +165,17 @@ h1 {
 .name-cn {
   color: var(--teal);
   display: block;
-  font-family: "Songti SC", "Noto Serif CJK SC", serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "Microsoft YaHei",
+    "Noto Sans CJK SC",
+    sans-serif;
   font-size: 0.27em;
   font-weight: 500;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   line-height: 1;
   margin-top: 28px;
 }
